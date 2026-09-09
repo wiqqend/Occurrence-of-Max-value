@@ -1,3 +1,13 @@
+/*  Program: MaxValue
+
+*   Programmer: Jacob Hartzell
+
+*   Date: 9/9/26
+
+*   Purpose: Code pulls in user input as a integer and finds the largest number and checks the 
+number of times the user enters that number and displays results when the number 0 is inputed
+
+*/
 import java.util.Scanner;
 public class MaxValue {
     public static void main(String[] args) {    
