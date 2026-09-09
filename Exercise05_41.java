@@ -9,7 +9,7 @@ number of times the user enters that number and displays results when the number
 
 */
 import java.util.Scanner;
-public class MaxValue {
+public class Exercise05_41 {
     public static void main(String[] args) {    
         System.out.print("Enter in an integer:");
         Scanner input = new Scanner(System.in);
