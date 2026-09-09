@@ -16,12 +16,17 @@ public class MaxValue {
         int number = input.nextInt();
         int count = 0;
         int max = number;
+        // Variable Declarations 
         
-        if (number == 0){
+
+        // Checking for no actual inputs.
+        if (number == 0){ 
             System.out.println("No numbers were entered except 0.");
             input.close();
             return;
         }
+
+        // Loop to find the Maxiumum and its occurances
         while (max != 0){
             number = input.nextInt();
             if (number == 0 ){
@@ -35,6 +40,8 @@ public class MaxValue {
                 count++;
             }
         }
+
+        // Output
         System.out.print("The largest number is " + max + " and it occurs " + count + " times.");
         input.close();
     }
